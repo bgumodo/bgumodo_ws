@@ -822,7 +822,7 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make simple_trajectory/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 #=============================================================================
@@ -835,7 +835,7 @@ actionlib_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make simple_trajectory/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 #=============================================================================
@@ -848,7 +848,7 @@ actionlib_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_generate_messages_py.dir/build.make simple_trajectory/CMakeFiles/actionlib_generate_messages_py.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 #=============================================================================
@@ -861,7 +861,7 @@ actionlib_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -874,7 +874,7 @@ actionlib_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -887,7 +887,7 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make simple_trajectory/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -900,7 +900,7 @@ control_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 control_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make simple_trajectory/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
 .PHONY : control_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -913,7 +913,7 @@ control_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 control_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make simple_trajectory/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
 .PHONY : control_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -926,60 +926,8 @@ control_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 control_msgs_generate_messages_py/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/control_msgs_generate_messages_py.dir/build.make simple_trajectory/CMakeFiles/control_msgs_generate_messages_py.dir/build
+	$(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/build
 .PHONY : control_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named test_trajectory
-
-# Build rule for target.
-test_trajectory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_trajectory
-.PHONY : test_trajectory
-
-# fast build rule for target.
-test_trajectory/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/test_trajectory.dir/build.make simple_trajectory/CMakeFiles/test_trajectory.dir/build
-.PHONY : test_trajectory/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_cpp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_lisp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_gencfg
@@ -1214,6 +1162,45 @@ tf_generate_messages_py: cmake_check_build_system
 tf_generate_messages_py/fast:
 	$(MAKE) -f komodo_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_cpp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_lisp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_cpp
@@ -2055,10 +2042,6 @@ help:
 	@echo "... control_msgs_generate_messages_cpp"
 	@echo "... control_msgs_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_py"
-	@echo "... test_trajectory"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -2077,6 +2060,9 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"

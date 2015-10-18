@@ -24,46 +24,16 @@ struct calibIMURequest_
   typedef calibIMURequest_<ContainerAllocator> Type;
 
   calibIMURequest_()
-    : status(0)
-    , xMax(0.0)
-    , xMin(0.0)
-    , yMax(0.0)
-    , yMin(0.0)
-    , zMax(0.0)
-    , zMin(0.0)  {
+    : status(0)  {
     }
   calibIMURequest_(const ContainerAllocator& _alloc)
-    : status(0)
-    , xMax(0.0)
-    , xMin(0.0)
-    , yMax(0.0)
-    , yMin(0.0)
-    , zMax(0.0)
-    , zMin(0.0)  {
+    : status(0)  {
     }
 
 
 
    typedef uint8_t _status_type;
   _status_type status;
-
-   typedef float _xMax_type;
-  _xMax_type xMax;
-
-   typedef float _xMin_type;
-  _xMin_type xMin;
-
-   typedef float _yMax_type;
-  _yMax_type yMax;
-
-   typedef float _yMin_type;
-  _yMin_type yMin;
-
-   typedef float _zMax_type;
-  _zMax_type zMax;
-
-   typedef float _zMin_type;
-  _zMin_type zMin;
 
 
     enum { START_CALIB = 1u };
@@ -148,12 +118,12 @@ struct MD5Sum< ::ric_board::calibIMURequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "7f7408dde4f735e9267f3b455d319bf3";
+    return "d5d83c85f9343c55c23f602a1e963688";
   }
 
   static const char* value(const ::ric_board::calibIMURequest_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x7f7408dde4f735e9ULL;
-  static const uint64_t static_value2 = 0x267f3b455d319bf3ULL;
+  static const uint64_t static_value1 = 0xd5d83c85f9343c55ULL;
+  static const uint64_t static_value2 = 0xc23f602a1e963688ULL;
 };
 
 template<class ContainerAllocator>
@@ -176,16 +146,6 @@ struct Definition< ::ric_board::calibIMURequest_<ContainerAllocator> >
 uint8 STOP_CALIB = 0\n\
 \n\
 uint8 status\n\
-\n\
-float32 xMax\n\
-float32 xMin\n\
-\n\
-float32 yMax\n\
-float32 yMin\n\
-\n\
-float32 zMax\n\
-float32 zMin\n\
-\n\
 ";
   }
 
@@ -205,12 +165,6 @@ namespace serialization
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
       stream.next(m.status);
-      stream.next(m.xMax);
-      stream.next(m.xMin);
-      stream.next(m.yMax);
-      stream.next(m.yMin);
-      stream.next(m.zMax);
-      stream.next(m.zMin);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER;
@@ -231,18 +185,6 @@ struct Printer< ::ric_board::calibIMURequest_<ContainerAllocator> >
   {
     s << indent << "status: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.status);
-    s << indent << "xMax: ";
-    Printer<float>::stream(s, indent + "  ", v.xMax);
-    s << indent << "xMin: ";
-    Printer<float>::stream(s, indent + "  ", v.xMin);
-    s << indent << "yMax: ";
-    Printer<float>::stream(s, indent + "  ", v.yMax);
-    s << indent << "yMin: ";
-    Printer<float>::stream(s, indent + "  ", v.yMin);
-    s << indent << "zMax: ";
-    Printer<float>::stream(s, indent + "  ", v.zMax);
-    s << indent << "zMin: ";
-    Printer<float>::stream(s, indent + "  ", v.zMin);
   }
 };
 

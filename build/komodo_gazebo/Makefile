@@ -150,6 +150,132 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_cpp: komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_lisp: komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_py: komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_cpp: komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+control_msgs_generate_messages_cpp: komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
+.PHONY : control_msgs_generate_messages_cpp
+
+# fast build rule for target.
+control_msgs_generate_messages_cpp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
+.PHONY : control_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+control_msgs_generate_messages_lisp: komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
+.PHONY : control_msgs_generate_messages_lisp
+
+# fast build rule for target.
+control_msgs_generate_messages_lisp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
+.PHONY : control_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+control_msgs_generate_messages_py: komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/rule
+.PHONY : control_msgs_generate_messages_py
+
+# fast build rule for target.
+control_msgs_generate_messages_py/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/control_msgs_generate_messages_py.dir/build
+.PHONY : control_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 komodo_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
 	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : komodo_gazebo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
@@ -401,6 +527,48 @@ tf_generate_messages_py/fast:
 	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/tf_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_cpp: komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_lisp: komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+.PHONY : komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+trajectory_msgs_generate_messages_py: komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	cd /home/nir/bgumodo_ws/build && $(MAKE) -f komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make komodo_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
+
 src/komodo_test_trajectory.o: src/komodo_test_trajectory.cpp.o
 .PHONY : src/komodo_test_trajectory.o
 
@@ -431,6 +599,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... control_msgs_generate_messages_cpp"
+	@echo "... control_msgs_generate_messages_lisp"
+	@echo "... control_msgs_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -456,6 +633,9 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... src/komodo_test_trajectory.o"
 	@echo "... src/komodo_test_trajectory.i"
 	@echo "... src/komodo_test_trajectory.s"
