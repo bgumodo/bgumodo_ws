@@ -1,0 +1,13 @@
+<launch>
+  <include file="$(find komodo_moveit_config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="false"/>
+  </include>
+
+  <node name="kinematic_model_tutorial"
+        pkg="komodo_moveit_tutorials"
+        type="kinematic_model_tutorial"
+        respawn="false" output="screen">
+    <rosparam command="load"
+              file="$(find komodo_moveit_config)/config/kinematics.yaml"/>
+  </node>
+</launch>

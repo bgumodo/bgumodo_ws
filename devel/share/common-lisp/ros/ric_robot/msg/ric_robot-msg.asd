@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "ric_robot-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "ric_raw" :depends-on ("_package_ric_raw"))
+    (:file "_package_ric_raw" :depends-on ("_package"))
+    (:file "ric_pan_tilt" :depends-on ("_package_ric_pan_tilt"))
+    (:file "_package_ric_pan_tilt" :depends-on ("_package"))
+    (:file "ric_status" :depends-on ("_package_ric_status"))
+    (:file "_package_ric_status" :depends-on ("_package"))
+    (:file "ric_elevator_command" :depends-on ("_package_ric_elevator_command"))
+    (:file "_package_ric_elevator_command" :depends-on ("_package"))
+    (:file "ric_rc" :depends-on ("_package_ric_rc"))
+    (:file "_package_ric_rc" :depends-on ("_package"))
+    (:file "ric_command" :depends-on ("_package_ric_command"))
+    (:file "_package_ric_command" :depends-on ("_package"))
+    (:file "ric_gps" :depends-on ("_package_ric_gps"))
+    (:file "_package_ric_gps" :depends-on ("_package"))
+  ))

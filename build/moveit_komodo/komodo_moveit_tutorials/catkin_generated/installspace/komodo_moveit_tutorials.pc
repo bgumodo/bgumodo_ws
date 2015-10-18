@@ -1,0 +1,8 @@
+prefix=/home/nir/bgumodo_ws/install
+
+Name: komodo_moveit_tutorials
+Description: Description of komodo_moveit_tutorials
+Version: 0.6.1
+Cflags: 
+Libs: -L/home/nir/bgumodo_ws/install/lib -lkomodo_moveit_tutorials
+Requires: moveit_core moveit_ros_planning_interface interactive_markers

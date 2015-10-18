@@ -1,0 +1,8 @@
+prefix=/home/nir/bgumodo_ws/devel
+
+Name: ric_description
+Description: Description of ric_description
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nir/bgumodo_ws/devel/lib 
+Requires: 
