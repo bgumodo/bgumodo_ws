@@ -22,6 +22,10 @@ sudo apt-get install ros-indigo-ros-control ros-indigo-ros-controllers
 
 sudo apt-get install ros-indigo-gazebo-ros-control
 
+Install Moveit
+-------------
+http://moveit.ros.org/install/
+
 Download the repository to your home directory
 ------------
 "cd"
@@ -52,5 +56,5 @@ moving the arm in simulation
 -------------------------
 1) roslaunch komodo_1_moveit_config moveit_planning_execution.launch
 
-An rviz window will come up, choose "ESTkconfig" goto planning press "update" than "plan and execute". The arm should move to a random position...
+An rviz window will come up, choose "ESTkconfig" goto planning click "update" than "plan and execute". The arm should move to a random position...
 
