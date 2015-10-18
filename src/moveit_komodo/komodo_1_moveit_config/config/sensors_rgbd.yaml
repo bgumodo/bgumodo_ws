@@ -1,0 +1,6 @@
+sensors: 
+ - sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater
+   point_cloud_topic: /komodo_1_Asus_Camera_link/depth/points
+   max_range: 5.0
+   frame_subsample: 1
+   point_subsample: 1

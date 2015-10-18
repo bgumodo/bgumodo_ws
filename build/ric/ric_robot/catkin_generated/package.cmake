@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ric_robot")
+set(ric_robot_MAINTAINER "RoboTiCan <support@robotican.net>")
+set(ric_robot_DEPRECATED "")
+set(ric_robot_VERSION "1.0.0")
+set(ric_robot_BUILD_DEPENDS "message_generation" "geometry_msgs" "roscpp" "sensor_msgs" "nav_msgs" "tf")
+set(ric_robot_RUN_DEPENDS "message_runtime" "geometry_msgs" "roscpp" "sensor_msgs" "nav_msgs" "tf")
+set(ric_robot_BUILDTOOL_DEPENDS "catkin")

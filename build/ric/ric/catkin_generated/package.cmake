@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ric")
+set(ric_MAINTAINER "RoboTiCan <support@robotican.net>")
+set(ric_DEPRECATED "")
+set(ric_VERSION "1.0.0")
+set(ric_BUILD_DEPENDS )
+set(ric_RUN_DEPENDS "ric_robot" "ric_base_station" "ric_description" "ric_mc" "ric_board" "ric_gazebo")
+set(ric_BUILDTOOL_DEPENDS "catkin")

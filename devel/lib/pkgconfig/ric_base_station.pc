@@ -1,0 +1,8 @@
+prefix=/home/nir/bgumodo_ws/devel
+
+Name: ric_base_station
+Description: Description of ric_base_station
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nir/bgumodo_ws/devel/lib 
+Requires: 

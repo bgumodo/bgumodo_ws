@@ -1,0 +1,2 @@
+komodo_gazebo:moveit_komodo/komodo_1_moveit_config:moveit_komodo/komodo_arm_moveit_config:moveit_komodo/komodo_moveit_tutorials:ric/ric:ric/ric_base_station:ric/ric_board:ric/ric_description:ric/ric_gazebo:ric/ric_mc:ric/ric_robot:simple_trajectory
+-DCATKIN_DEVEL_PREFIX=/home/nir/bgumodo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nir/bgumodo_ws/install -G Unix Makefiles

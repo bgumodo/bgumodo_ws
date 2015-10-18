@@ -1,0 +1,8 @@
+prefix=/home/nir/bgumodo_ws/install
+
+Name: simple_trajectory
+Description: Description of simple_trajectory
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nir/bgumodo_ws/install/lib 
+Requires: 

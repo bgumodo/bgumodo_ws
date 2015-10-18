@@ -1,0 +1,8 @@
+prefix=/home/nir/bgumodo_ws/install
+
+Name: komodo_gazebo
+Description: Description of komodo_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nir/bgumodo_ws/install/lib 
+Requires: gazebo_ros

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ric_base_station")
+set(ric_base_station_MAINTAINER "RoboTiCan <support@robotican.net>")
+set(ric_base_station_DEPRECATED "")
+set(ric_base_station_VERSION "1.0.0")
+set(ric_base_station_BUILD_DEPENDS "geometry_msgs" "ric_robot" "rospy" "sensor_msgs")
+set(ric_base_station_RUN_DEPENDS "geometry_msgs" "ric_robot" "rospy" "sensor_msgs")
+set(ric_base_station_BUILDTOOL_DEPENDS "catkin")

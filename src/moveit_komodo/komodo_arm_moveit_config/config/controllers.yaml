@@ -1,0 +1,19 @@
+controller_manager_ns: komodo_controller_manager
+controller_list:
+ - name: komodo_1/komodo_arm_controller
+   action_ns: follow_joint_trajectory
+   type: FollowJointTrajectory
+   default: true
+   joints:
+      - base_rotation_joint
+      - shoulder_joint
+      - elbow1_joint
+      - elbow2_joint
+      - wrist_joint
+ - name: komodo_1/komodo_gripper_controller
+   action_ns: gripper_action
+   type: GripperCommand
+   default: true
+   joints:
+     - komodo_1_right_finger_joint
+

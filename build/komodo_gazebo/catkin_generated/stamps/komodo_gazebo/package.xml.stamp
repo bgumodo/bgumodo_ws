@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>komodo_gazebo</name>
+  <version>0.0.0</version>
+  <description>komodo_gazebo</description>
+  <maintainer email="nirlevi5@gmail.com">Nir Levi</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+
+  <run_depend>ric_description</run_depend>
+  <run_depend>gazebo_ros</run_depend> 
+  <run_depend>controller_manager</run_depend>
+  <run_depend>ros_control</run_depend>
+  <run_depend>ros_controllers</run_depend>
+
+  <export>
+  </export>
+</package>

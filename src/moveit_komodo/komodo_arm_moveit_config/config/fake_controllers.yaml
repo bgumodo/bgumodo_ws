@@ -1,0 +1,8 @@
+controller_list:
+  - name: fake_komodo_arm_controller
+    joints:
+      - base_rotation_joint
+      - shoulder_joint
+      - elbow1_joint
+      - elbow2_joint
+      - wrist_joint
