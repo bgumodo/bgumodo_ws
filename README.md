@@ -22,13 +22,13 @@ sudo apt-get install ros-indigo-ros-control ros-indigo-ros-controllers
 
 sudo apt-get install ros-indigo-gazebo-ros-control
 
-Download the repository to your catkin_ws/src
+Download the repository to your home directory
 ------------
-"cd ~/catkin_ws/src"
+"cd"
 
-"git clone https://github.com/intelligenceBGU/robo-service.git"
+"git clone https://github.com/bgumodo/bgumodo_ws.git"
 
-"cd .."
+"cd bgumodo_ws"
 
 "catkin_make"
 
