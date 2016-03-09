@@ -1,8 +1,0 @@
-prefix=/home/nir/bgumodo_ws/install
-
-Name: ric_mc
-Description: Description of ric_mc
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/nir/bgumodo_ws/install/lib 
-Requires: 

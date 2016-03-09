@@ -1,8 +1,0 @@
-prefix=/home/nir/bgumodo_ws/devel
-
-Name: komodo_1_moveit_config
-Description: Description of komodo_1_moveit_config
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/nir/bgumodo_ws/devel/lib 
-Requires: 

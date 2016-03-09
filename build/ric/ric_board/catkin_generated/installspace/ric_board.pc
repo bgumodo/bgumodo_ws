@@ -1,8 +1,0 @@
-prefix=/home/nir/bgumodo_ws/install
-
-Name: ric_board
-Description: Description of ric_board
-Version: 1.0.0
-Cflags: -I/home/nir/bgumodo_ws/install/include
-Libs: -L/home/nir/bgumodo_ws/install/lib 
-Requires: roscpp rospy std_msgs sensor_msgs geometry_msgs message_runtime

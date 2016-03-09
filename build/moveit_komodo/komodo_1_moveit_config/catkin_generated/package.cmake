@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "komodo_1_moveit_config")
-set(komodo_1_moveit_config_MAINTAINER "MoveIt Setup Assistant <assistant@moveit.ros.org>")
-set(komodo_1_moveit_config_DEPRECATED "")
-set(komodo_1_moveit_config_VERSION "0.2.0")
-set(komodo_1_moveit_config_BUILD_DEPENDS "komodo_gazebo")
-set(komodo_1_moveit_config_RUN_DEPENDS "moveit_ros_move_group" "moveit_planners_ompl" "moveit_ros_visualization" "joint_state_publisher" "robot_state_publisher" "xacro" "komodo_gazebo")
-set(komodo_1_moveit_config_BUILDTOOL_DEPENDS "catkin")

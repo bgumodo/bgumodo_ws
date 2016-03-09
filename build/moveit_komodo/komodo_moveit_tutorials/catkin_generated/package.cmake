@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "komodo_moveit_tutorials")
-set(komodo_moveit_tutorials_MAINTAINER "Ioan Sucan <isucan@willowgarage.com>, Michael Ferguson <mferguson@fetchrobotics.com>, Nir Levi <nirlevi5@gmail.com>")
-set(komodo_moveit_tutorials_DEPRECATED "")
-set(komodo_moveit_tutorials_VERSION "0.6.1")
-set(komodo_moveit_tutorials_BUILD_DEPENDS "pluginlib" "moveit_core" "moveit_ros_planning_interface" "moveit_ros_perception" "interactive_markers" "cmake_modules")
-set(komodo_moveit_tutorials_RUN_DEPENDS "pluginlib" "moveit_core" "moveit_fake_controller_manager" "moveit_ros_planning_interface" "moveit_ros_perception" "interactive_markers")
-set(komodo_moveit_tutorials_BUILDTOOL_DEPENDS "catkin")

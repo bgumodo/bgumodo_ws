@@ -1,8 +1,0 @@
-prefix=/home/nir/bgumodo_ws/install
-
-Name: ric_robot
-Description: Description of ric_robot
-Version: 1.0.0
-Cflags: -I/home/nir/bgumodo_ws/install/include
-Libs: -L/home/nir/bgumodo_ws/install/lib 
-Requires: message_runtime
